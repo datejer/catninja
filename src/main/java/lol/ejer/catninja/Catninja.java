@@ -39,7 +39,7 @@ public final class Catninja extends JavaPlugin {
             public void run() {
                 fetchAndBroadcastCatFact();
             }
-        }.runTaskTimerAsynchronously(this, 0L, 20L * 10L);
+        }.runTaskTimerAsynchronously(this, 0L, FIVE_MINUTES);
     }
 
     private void fetchAndBroadcastCatFact() {
